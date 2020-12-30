@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" id="toTop">
+<meta charset="UTF-8">
+<title>Nenad Rodic Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Add to homescreen for Chrome on Android -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Rodic Nenad Portfolio">
+
+<!-- Add to homescreen for Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- Color the status bar on mobile devices -->
+
+
+
+<link rel="icon" href="images/favicon.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<body>
+    <header>
+        <nav>
+            <ul class="topnav" id="myTopnav">
+                <li>
+                    <a href="#toTop" class="top" onclick="toTop()">HOME</a>
+                </li>
+                <li>
+                    <a href="#about" class="abo" onclick="toAbout()">
+                        <i class="fa fa-user" aria-hidden="true"></i> ABOUT</a>
+                </li>
+                <li>
+                    <a href="#skils" class="ski" onclick="toProf()">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>PROFESSIONAL</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="por" onclick="toPort()">
+                        <i class="fa fa-th" aria-hidden="true"></i> PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="#contact" class="con" onclick="toCont()">
+                        <i class="fa fa-envelope" aria-hidden="true"></i> CONTACT</a>
+                </li>
+                <li class="icon">
+                    <a href="javascript:void(0);" onclick="myFunction()">
+                        <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="doubleWrapper">
+        <section id="hero">
+            <div class="overlay">
+                <div class="logo">
+                    <div class="s2">
+                        <h1 class="font_0">I
+                            <span class="color_18">'</span>M</h1>
+                        <a href="#contact" onclick="toCont()">
+                            <h1 class="font_0">NENAD
+                                <br>RODIC
+                                <span class="color_18">.</span>
+                            </h1>
+                        </a>
+                        <h5 class="font_5">
+                            <span>WEB DEVELOPER</span>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <aside>
+                <a id="moveDown" href="#about" onclick="toAbout()">
+                    <span class="fa fa-angle-double-down" aria-hidden="true"></span>
+                </a>
+            </aside>
+        </section>
+        <section id="about">
+            <div class="absolute">
+                <img id="photo" src="images/nenadPhotoGreenCircle.png" onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="Photo of Me">
+                <h1>ABOUT</h1>
+                <h3>
+                    <em>I love web development.</em>
+                </h3>
+                <p>Hi, welcome to my portfolio. I’m Nenad, an enthusiastic and self-motivated front end web developer. I enjoy working on design-driven projects and combining the art of design with the art of programming. With every line of code, I strive
+                    to make the web a beautiful place!
+                </p>
+                <a href="images/cvNenadRodic.doc">DOWNLOAD RESUME</a>
+            </div>
+        </section>
+        <section id="skils">
+            <h1>PROFESSIONAL</h1>
+            <h4>MY KNOWLEDGE LEVEL IN SOFTWARE</h4>
+            <div class="skillbar clearfix meter" data-percent="95%">
+                <div class="skillbar-title">
+                    <span>HTML5</span>
+                </div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">95%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="95%">
+                <div class="skillbar-title">
+                    <span>CSS3</span>
+                </div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">95%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="95%">
+                <div class="skillbar-title">
+                    <span>Sass</span>
+                </div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">95%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="95%">
+                <div class="skillbar-title">
+                    <span>Bootsrap</span>
+                </div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">95%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+
+            <div class="skillbar clearfix " data-percent="50%">
+                <div class="skillbar-title">
+                    <span>WordPress</span>
+                </div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">50%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="90%">
+                <div class="skillbar-title">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">90%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="90%">
+                <div class="skillbar-title">
+                    <span>jQuery</span>
+                </div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">90%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix" id="third" data-percent="70%">
+                <div class="skillbar-title">
+                    <span>Angular2</span>
+                </div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">70%</div>
+            </div>
+            <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix" id="third" data-percent="50%">
+                <div class="skillbar-title">
+                    <span>React</span>
+                </div>
+                <div class="skillbar-bar"></div>
+                <div class="skill-bar-percent">50%</div>
+            </div>
+            <!-- End Skill Bar -->
+            <section id="portfolio">
+                <div class="emptySpacePOS" style="position: relative;"></div>
+                <article id="fourthSection">
+                    <span class="radiusBorder"> </span>
+                    <br>
+                    <h1>PORTFOLIO</h1>
+                    <ul>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>TELMEKOM</p>
+                                <p class="fourthSectionDropdown">front-end part web app development
+                                    <br>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>OOB LIFE</p>
+                                <p class="fourthSectionDropdown">front-end part web app development
+                                    <br>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>ARVIN</p>
+                                <p class="fourthSectionDropdown">front-end part web app development
+                                    <br>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>SMART PLANTS</p>
+                                <p class="fourthSectionDropdown">website development
+                                    <br>
+                                    <a href="https://smartplants.io/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>SVEN UGAU</p>
+                                <p class="fourthSectionDropdown">website design & development
+                                    <br>
+                                    <a href="http://svenugau.com/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>DIGITAL CUBE</p>
+                                <p class="fourthSectionDropdown">website development
+                                    <br>
+                                    <a href="https://digitalcube.rs/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>OOB LIFE</p>
+                                <p class="fourthSectionDropdown">website development
+                                    <br>
+                                    <a href="https://ooblife.com/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>JASNA JEREMIC</p>
+                                <p class="fourthSectionDropdown">website development
+                                    <br>
+                                    <a href="https://www.jeremicjasna.ch/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>HEALTH COACH</p>
+                                <p class="fourthSectionDropdown">website development - copy of healthcoach.stylemixthemes.com
+                                    <br>
+                                    <a href="https://rodic-nenad.github.io/health-coach/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>STARTUP TURKEY</p>
+                                <p class="fourthSectionDropdown">website development - copy of www.startupturkey.com
+                                    <br>
+                                    <a href="https://rodic-nenad.github.io/Startup-Turkey/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>SWAY WATER</p>
+                                <p class="fourthSectionDropdown">website development - copy of swaywater.com
+                                    <br>
+                                    <a href="https://rodic-nenad.github.io/sway-water/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>FLEET PARTNER</p>
+                                <p class="fourthSectionDropdown">website development - copy of www.fleetpartner.rs
+                                    <br>
+                                    <a href="https://rodic-nenad.github.io/Fleet/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="fourthSectionPoint" onclick="markFourthSectionPoing(event)">
+                            <div class="fourthSectionDiv">
+                                <span class="radiusBorder4"> </span>
+                                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                <p>MY WEBSITE</p>
+                                <p class="fourthSectionDropdown">full website design & development in Bootstrap
+                                    <br>
+                                    <a href="https://rodic-nenad.github.io/bootstrap/" target="_blank">see more</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+                </article>
+            </section>
+            <section id="contact">
+                <div class="sectionTitle">
+                    <h1>CONTACT</h1>
+                </div>
+                <footer>
+                    <div class="footerContainer">
+                        <div class="textGreat">
+                            <h3>You can contact me at any time.</h3>
+                            <h1>Thanks for visiting.</h1>
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="mailto:nenadrodic@yahoo.com" target="_blank">
+                                        <i class="fa fa-envelope" aria-hidden="true" title="email"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/rodic-nenad" target="_blank">
+                                        <i class="fa fa-github" aria-hidden="true" title="github.com"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://rs.linkedin.com/in/nenad-rodic" target="_blank">
+                                        <i class="fa fa-linkedin" aria-hidden="true" title="linkedin.com"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/rodic.nenad.9" target="_blank">
+                                        <i class="fa fa-facebook" aria-hidden="true" title="www.facebook.com"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <aside>
+                            <a id="moveUp" href="#toTop" onclick="toTop()">
+                                <span class="fa fa-angle-double-up" aria-hidden="true"></span>
+                                <br>
+                                <p>back to the top</p>
+                            </a>
+                        </aside>
+                        <div class="lastLine">
+                            <hr>
+                            <p>Desisned &amp; developed by NENAD&nbsp;RODIC</p>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </section>
+
+        <script src="js/main.js" type="text/javascript"></script>
+        <script src="js/jquery.boxloader.min.js"></script>
+        <script src="js/appear.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
