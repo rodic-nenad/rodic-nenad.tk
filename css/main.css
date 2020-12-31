@@ -248,6 +248,8 @@ ul.topnav li.icon {
     height: 170px;
     opacity: 0.7;
     margin-top: 7%;
+    border-radius: 10px;
+    border: 5px solid #00D646;
 }
 
 .absolute img:hover {
@@ -328,8 +330,8 @@ ul.topnav li.icon {
     position: absolute;
     top: 0;
     left: 0%;
-    width: 100px;
-    font-size: 13px;
+    width: 130px;
+    font-size: 14px;
     color: #ffffff;
     background-color: rgba(0, 214, 70, 1);
 }
@@ -352,7 +354,7 @@ ul.topnav li.icon {
     position: absolute;
     right: 10px;
     top: 0;
-    font-size: 11px;
+    font-size: 12px;
     height: 20px;
     line-height: 20px;
     color: #ffffff;
@@ -428,6 +430,19 @@ article#fourthSection ul li:hover {
 }
 
 article#fourthSection ul li:first-child {
+    background-image: url('../images/pannovate.png');
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+article#fourthSection ul li:nth-child(2) {
+    background-image: url('../images/clevair.png');
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+article#fourthSection ul li:nth-child(3) {
     background-image: url('../images/telmekom-profile.svg');
     background-size: contain;
     background-position: top center;
@@ -435,7 +450,7 @@ article#fourthSection ul li:first-child {
     background-color: white;
 }
 
-article#fourthSection ul li:nth-child(2) {
+article#fourthSection ul li:nth-child(4) {
     background-image: url('../images/oob-app-screen.svg');
     background-size: contain;
     background-position: top center;
@@ -443,7 +458,7 @@ article#fourthSection ul li:nth-child(2) {
     background-color: white;
 }
 
-article#fourthSection ul li:nth-child(3) {
+article#fourthSection ul li:nth-child(5) {
     background-image: url('../images/background.jpg');
     background-size: cover;
     background-position: top center;
@@ -451,56 +466,50 @@ article#fourthSection ul li:nth-child(3) {
     background-color: white;
 }
 
-article#fourthSection ul li:nth-child(4) {
-    background-image: url('../images/SmartPlants.png');
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
-}
 
-article#fourthSection ul li:nth-child(5) {
+article#fourthSection ul li:nth-child(6) {
     background-image: url('../images/bckg_1.jpg');
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
 }
 
-article#fourthSection ul li:nth-child(6) {
+article#fourthSection ul li:nth-child(7) {
     background-image: url('../images/digitalcube.png');
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
 }
 
-article#fourthSection ul li:nth-child(7) {
+article#fourthSection ul li:nth-child(8) {
     background-image: url('../images/oob.jpeg');
     background-size: cover;
 }
 
-article#fourthSection ul li:nth-child(8) {
+article#fourthSection ul li:nth-child(9) {
     background-image: url('../images/jj.png');
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
 }
 
-article#fourthSection ul li:nth-child(9) {
+article#fourthSection ul li:nth-child(10) {
     background-image: url('../images/healthCoach.jpg');
 }
 
-article#fourthSection ul li:nth-child(10) {
+article#fourthSection ul li:nth-child(11) {
     background-image: url('../images/StartupTurkey.jpg');
 }
 
-article#fourthSection ul li:nth-child(11) {
+article#fourthSection ul li:nth-child(12) {
     background-image: url('../images/SwayWater.png');
 }
 
-article#fourthSection ul li:nth-child(12) {
+article#fourthSection ul li:nth-child(13) {
     background-image: url('../images/home.png');
 }
 
-article#fourthSection ul li:nth-child(13) {
+article#fourthSection ul li:nth-child(14) {
     background-image: url('../images/myWebsite.png');
 }
 
